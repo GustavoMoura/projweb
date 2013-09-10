@@ -1,4 +1,4 @@
-<?php require_once ("Includes/session.php"); ?>
+<?php /*require_once ("Includes/session.php"); */ ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -13,6 +13,7 @@
         <!-- CSS -->
         <link href="/Styles/structure.css" rel="stylesheet">
         <link href="/Styles/form.css" rel="stylesheet">
+        <link href="cssmenutools/scripts/MTHM.css" rel="stylesheet">
         <!-- JavaScript -->
         <script src="/scripts/wufoo.js"></script>
         <!--[if lt IE 10]>
@@ -30,6 +31,7 @@
                     <section id="login">
                         <ul id="login">
                         <?php
+                            /*
                         if (logged_on())
                         {
                             echo '<li><a href="/logoff.php">Sign out</a></li>' . "\n";
@@ -44,23 +46,60 @@
                         {
                             echo '<li><a href="/logon.php">Login</a></li>' . "\n";
                             echo '<li><a href="/register.php">Register</a></li>' . "\n";
-                        }
+                        }*/
                         ?>
                         </ul>
-                        <?php if (logged_on()) {
+                        <?php /*if (logged_on()) {
                             echo "<div class=\"welcomeMessage\">Welcome, <strong>{$_SESSION['username']}</strong></div>\n";
-                        } ?>
+                        } */ ?>
                     </section>
                 </div>
 
                 <div class="clear-fix"></div>
             </div>
-
+            <div id="MTHMFGYNRVADiv" class="MTHMFGYNRVAwrapper">
+    <div id="MTHMFGYNRVATop" class="MTHMFGYNRVAtop">
+        <div class="MTHMFGYNRVAtopleft">
+            <div class="MTHMFGYNRVAtopright">
+                <div class="MTHMFGYNRVAtopmiddle">
+                    <ul>
+                        <li class="MTHMFGYNRVAitem1" style="margin-left:0px">
+                            <a href="#"><span>Products</span></a>
+                        </li>
+                        <li class="MTHMFGYNRVAitem5">
+                            <a href="#"><span>Download</span></a>
+                        </li>
+                        <li class="MTHMFGYNRVAitem5">
+                            <a href="#"><span>Purchase</span></a>
+                        </li>
+                        <li class="MTHMFGYNRVAitem1">
+                            <a href="#"><span>Support</span></a>
+                        </li>
+                        <li class="MTHMFGYNRVAitem1">
+                            <a href="#"><span>Company</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="MTHMFGYNRVAlevel2">
+        <div class="MTHMFGYNRVAlevel2left">
+            <div class="MTHMFGYNRVAlevel2right">
+                <div id="MTHMFGYNRVALevel2" class="MTHMFGYNRVAlevel2middle">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cssmenutools/scripts/MTHM.js">/* MTHMMenu script ID:MTHMFGYNRVA */</script>
+</div>
+            <!-- 
                 <section class="navigation" data-role="navbar">
                     <nav>
                         <ul id="menu">
                             <li><a href="/index.php">Home</a></li>
                             <?php
+                                /*
                                 $statement = $databaseConnection->prepare("SELECT id, menulabel FROM pages");
                                 $statement->execute();
 
@@ -74,8 +113,10 @@
                                 {
                                     echo "<li><a href=\"/page.php?pageid=$id\">$menulabel</a></li>\n";
                                 }
+                                */
                             ?>
                         </ul>
                     </nav>
             </section>
+            -->
         </header>

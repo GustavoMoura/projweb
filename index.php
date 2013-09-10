@@ -1,6 +1,6 @@
     <?php 
-        require_once ("Includes/config.php"); 
-        require_once  ("Includes/connectDB.php");
+        /*require_once ("Includes/config.php"); 
+        require_once  ("Includes/connectDB.php");*/
         include("Includes/header.php"); 
 /*
 $password = "mygreatPassword";
