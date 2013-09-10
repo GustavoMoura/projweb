@@ -5,62 +5,62 @@
 // Trial copy.
 
 /*
-COMMON_STYLE:[Level-1,0,1,1,0,'Verdana,Arial,Helvetica,sans-serif',13,0,0,0,0,0,0,0,0,0,,#00488f,#282828,,#ffffff,#ffffff,,#ffffff,#282828,1,1,140,27,0,1,25,15,3,0,0,1,,,,&../hm_1st_over1.gif,&../hm_1st_over2.gif,&../hm_1st_over3.gif,&../hm_1st_over1.gif,&../hm_1st_over2.gif,&../hm_1st_over3.gif],[Level-1-arrow,0,2,1,0,'Verdana,Arial,Helvetica,sans-serif',13,0,0,0,0,0,0,0,0,0,,#00488f,#282828,,#ffffff,#ffffff,,#ffffff,#282828,1,1,140,27,0,1,25,15,3,0,0,1,,,&../hm_1st_arrow.gif,&../hm_1st_over1.gif,&../hm_1st_over2.gif,&../hm_1st_over_arrow.gif,&../hm_1st_over1.gif,&../hm_1st_over2.gif,&../hm_1st_over_arrow.gif],[Level-2,0,7,1,0,'Verdana,Arial,Helvetica,sans-serif',11,0,0,0,0,0,0,0,0,0,,#282828,#eda001,#ffffff,#0085bd,#91dbff,#ffffff,#0085bd,#91dbff,1,1,125,26,1,1,10,10,7,3,0,0,,,,,,,,,],[Level-2-arrow,0,8,1,0,'Verdana,Arial,Helvetica,sans-serif',11,0,0,0,0,0,0,0,0,0,,#282828,#ece7e7,#ffffff,#2c89d6,#91dbff,#ffffff,#2c89d6,#91dbff,1,1,125,26,1,1,10,10,7,3,0,1,,,&../hm_2nd_arrow.gif,,,&../hm_2nd_over_arrow.gif,,,&../hm_2nd_over_arrow.gif],[Level-3,0,23,1,0,'Verdana,Arial,Helvetica,sans-serif',11,0,0,0,0,0,0,0,0,0,,#ffffff,#eda001,#ffffff,#282828,#4fbfeb,#ffffff,#282828,#4fbfeb,1,1,145,26,0,1,17,10,7,3,0,0,,,,,,,,,],[]
+COMMON_STYLE:[Default Style,0,0,1,1,'Verdana,Arial,Helvetica,sans-serif',12,0,0,0,1,0,0,1,0,0,#0494F2,#0000ff,#0494F2,#FFFFFF,#0494F2,#0494F2,#B5EF49,#000000,#B5EF49,1,1,150,30,0,1,15,15,5,5,0,0,,,,,,,,,],[]
 */
-var FGYNRVA = {
+var LFNYNMA = {
 dummy:0,
-MENU_NAME:'MTHM menu',
+MENU_NAME:'MTHM0',
 TOPLEVEL_WIDTH_VARIANT:1,
-TOPLEVEL_HEIGHT_VARIANT:1,
-TOPLEVEL_WIDTH:750,
-TOPLEVEL_HEIGHT:32,
+TOPLEVEL_HEIGHT_VARIANT:0,
+TOPLEVEL_WIDTH:800,
+TOPLEVEL_HEIGHT:40,
 TOPLEVEL_ALIGN:0,
 TOPLEVEL_ITEMS_ALIGN:0,
 TOPLEVEL_SPACING:1,
-TOPLEVEL_TOP_PADDING:3,
+TOPLEVEL_TOP_PADDING:0,
 TOPLEVEL_BORDER_WIDTH:0,
-TOPLEVEL_BORDER_COLOR:'#aaa9a9',
+TOPLEVEL_BORDER_COLOR:'#026493',
 TOPLEVEL_BG_COLOR:'',
-USE_TOPLEVEL_BG_IMAGES:true,
-TOPLEVEL_BG_LEFT_IMAGE:'&../hm_main_left.gif',
-TOPLEVEL_BG_MIDDLE_IMAGE:'&../hm_main_bg.gif',
-TOPLEVEL_BG_RIGHT_IMAGE:'&../hm_main_right.gif',
-LEVEL2_MODE:0,
-LEVEL2_HEIGHT:28,
-LEVEL2_SPACING:3,
-LEVEL2_TOP_PADDING:1,
+USE_TOPLEVEL_BG_IMAGES:false,
+TOPLEVEL_BG_LEFT_IMAGE:'',
+TOPLEVEL_BG_MIDDLE_IMAGE:'',
+TOPLEVEL_BG_RIGHT_IMAGE:'',
+LEVEL2_MODE:1,
+LEVEL2_HEIGHT:40,
+LEVEL2_SPACING:1,
+LEVEL2_TOP_PADDING:0,
 LEVEL2_BORDER_WIDTH:0,
-LEVEL2_BORDER_COLOR:'#ffffff',
+LEVEL2_BORDER_COLOR:'#00008B',
 LEVEL2_BG_COLOR:'',
-USE_LEVEL2_BG_IMAGES:true,
-LEVEL2_BG_LEFT_IMAGE:'&../hm_2nd_left.gif',
-LEVEL2_BG_MIDDLE_IMAGE:'&../hm_2nd_bg.gif',
-LEVEL2_BG_RIGHT_IMAGE:'&../hm_2nd_right.gif',
-DROPDOWN_SPACING:8,
-DROPDOWN_PADDING:3,
+USE_LEVEL2_BG_IMAGES:false,
+LEVEL2_BG_LEFT_IMAGE:'',
+LEVEL2_BG_MIDDLE_IMAGE:'',
+LEVEL2_BG_RIGHT_IMAGE:'',
+DROPDOWN_SPACING:1,
+DROPDOWN_PADDING:5,
 DROPDOWN_FLEVEL_OFFSET_X:0,
 DROPDOWN_FLEVEL_OFFSET_Y:1,
-DROPDOWN_SUBLEVEL_OFFSET_X:1,
+DROPDOWN_SUBLEVEL_OFFSET_X:0,
 DROPDOWN_SUBLEVEL_OFFSET_Y:0,
-DROPDOWN_OPEN_EFFECT:1,
+DROPDOWN_OPEN_EFFECT:0,
 DROPDOWN_OPEN_SPEED:10,
-DROPDOWN_CLOSE_EFFECT:1,
+DROPDOWN_CLOSE_EFFECT:0,
 DROPDOWN_CLOSE_SPEED:10,
 DROPDOWN_DELAY:300,
-DROPDOWN_SHADOW:false,
-DROPDOWN_BG_COLOR:'#0165c3',
-DROPDOWN_BORDER_COLOR:'#00488f',
+DROPDOWN_SHADOW:true,
+DROPDOWN_BG_COLOR:'#0494F2',
+DROPDOWN_BORDER_COLOR:'#026493',
 DROPDOWN_BORDER_WIDTH:0,
 DROPDOWN_OPACITY:100,
 USE_ABSOLUTE_POS:false,
 X:0,
 Y:0,
-Z_INDEX:50,
+Z_INDEX:1000,
 SEO_LINKS:0,
 KEYBOARD:false,
 LANGUAGE_RTL:false,
-PREVIEW_BACKGROUND_COLOR:'#ffffff',
-STREAM:[0,5,1,"Level-1-arrow","Products","",0,'','',0,"Level-1","Download","",0,'','',0,"Level-1","Purchase","",0,'','',3,"Level-1-arrow","Support","",0,'','',4,"Level-1-arrow","Company","",0,'','',1,3,2,"Level-2-arrow","Product #1","",0,'','',0,"Level-2","Product #2","",0,'','',0,"Level-2","Product #3","",0,'','',2,3,0,"Level-3","Windows","",0,'','',0,"Level-3","Mac","",0,'','',0,"Level-3","Linux","",0,'','',3,5,0,"Level-2","Support Center","",0,'','',0,"Level-2","Tutorials","",0,'','',0,"Level-2","Knowledge Base","",0,'','',0,"Level-2","Product Forums","",0,'','',0,"Level-2","Contact Support","",0,'','',4,5,0,"Level-2","About Us","",0,'','',0,"Level-2","Our Customers","",0,'','',0,"Level-2","What's New","",0,'','',0,"Level-2","Testimonials","",0,'','',0,"Level-2","Contact Us","",0,'',''],
+PREVIEW_BACKGROUND_COLOR:'#FFFFFF',
+STREAM:[0,1,0,"Default Style","Unnamed","",0,'',''],
 END_PARAMETERS:1,
 browser:function(){var ua=navigator.userAgent.toLowerCase()
 var ind=ua.indexOf('gecko')
@@ -99,10 +99,10 @@ var oldf=window.onload
 if(typeof oldf!='function'){window.onload=w}else{window.onload=function(){try{oldf()}catch(e){}w()}}},
 init:function(){var m=this
 m.br=new m.browser
-m.ID='MTHMFGYNRVA'
+m.ID='MTHMLFNYNMA'
 m.setPathAdjustment('MTHMMenu script ID:'+m.ID+' ')
 m.addLoadEvent(m.onload)},
-onload:function(){setTimeout('FGYNRVA.start()',0)},
+onload:function(){setTimeout('LFNYNMA.start()',0)},
 start:function(){var m=this
 m.currentItem=null
 m.items=new Array()
@@ -114,25 +114,12 @@ m.timeout=null
 m.interval=null
 m.opacity=!m.br.ie8 ? 100:100
 m.filter=''
-m.styles["Level-1"]={ind:5,mline_cntr:0};m.styles["Level-1-arrow"]={ind:1,mline_cntr:0};m.styles["Level-2"]={ind:4,mline_cntr:0};m.styles["Level-2-arrow"]={ind:2,mline_cntr:0};m.styles["Level-3"]={ind:3,mline_cntr:0};m.wrapper=document.getElementById(m.ID+'Div')
+m.styles["Default Style"]={ind:1,mline_cntr:0};m.wrapper=document.getElementById(m.ID+'Div')
 m.div=document.getElementById(m.ID+'Top')
-m.level2=document.getElementById(m.ID+'Level2')
 var sPreloadTags="<ul>"
 sPreloadTags+="<li class=\""+m.ID+"item1\"><a><span>link</span></a></li>"
 sPreloadTags+="<li class=\""+m.ID+"item1Cur\"><a><span>link</span></a></li>"
 sPreloadTags+="<li class=\""+m.ID+"item1Over\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item2\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item2Cur\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item2Over\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item3\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item3Cur\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item3Over\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item4\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item4Cur\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item4Over\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item5\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item5Cur\"><a><span>link</span></a></li>"
-sPreloadTags+="<li class=\""+m.ID+"item5Over\"><a><span>link</span></a></li>"
 sPreloadTags+="</ul>"
 var e=document.createElement('div')
 e.className=m.ID+'Preload'
@@ -180,18 +167,11 @@ if(foo.level>0)fo.innerHTML=fos
 var SBWidth=0
 var items=fo.getElementsByTagName('LI')
 var len=items.length
-if(foo.level>1){for(var j=0;j<len;j++){SBWidth=Math.max(SBWidth, items[j].offsetWidth)
-if(j>0)items[j].style.marginTop=8+'px'}fo.style.width=SBWidth+'px'
+if(foo.level>0){for(var j=0;j<len;j++){SBWidth=Math.max(SBWidth, items[j].offsetWidth)
+if(j>0)items[j].style.marginTop=1+'px'}fo.style.width=SBWidth+'px'
 fo.style.display='none'
 if(m.br.ie6){fo.style.paddingTop=0
-fo.children[0].style.marginTop=3+'px'}}else if(foo.level==1){var btnSpace=3
-for(var j=0;j<len;j++){SBWidth+=items[j].offsetWidth
-if(j==0)items[j].style.marginLeft='0px'
-SBWidth+=btnSpace}SBWidth+=btnSpace
-if(m.br.ie9)SBWidth=fo.offsetWidth+1
-fo.style.width=SBWidth+'px'
-if(!m.br.ie7)fo.style.display='none'
-foo.baseWidth=SBWidth}var items=fo.getElementsByTagName('LI')
+fo.children[0].style.marginTop=5+'px'}}var items=fo.getElementsByTagName('LI')
 var len=items.length
 for(var j=0;j<len;j++){var it=m.items[linkID+j]
 if(it.type==typeSrv)continue
@@ -202,9 +182,8 @@ btn.id=btID+j}if(it.sel){a.style.cursor='default'
 while(it){var foCur=m.dropdowns[it.foid]
 if(!it.selSet){it.selSet=true
 if(!it.sel){it.selPar=true
-btn=document.getElementById(it.btID)}btn.className=it.cls+' '+it.cls+'Cur'
-if(!m.defFoid&&foCur.level==0&&it.cfoid)m.defFoid=it.cfoid}it=foCur.itPar}}else{a.onmouseup=m.onmouseup}a.onfocus=function(){this.blur()};a.onclick=m.onclick}}m.updateDropdowns()},
-onmouseover:function(evt){var m=FGYNRVA
+btn=document.getElementById(it.btID)}btn.className=it.cls+' '+it.cls+'Cur'}it=foCur.itPar}}else{a.onmouseup=m.onmouseup}a.onfocus=function(){this.blur()};a.onclick=m.onclick}}m.updateDropdowns()},
+onmouseover:function(evt){var m=LFNYNMA
 m.cancelDropdownsUpdating()
 var e=m.getSource(evt)
 if(e)m.over(e)
@@ -217,7 +196,7 @@ if(it){m.currentItem=e
 if(!it.sel&&(!it.selPar||!m.defFoid||it.level>0))e.parentNode.className=it.cls+' '+it.cls+'Over'
 m.lastFoid=it.cfoid?it.cfoid:it.foid
 m.updateDropdownsTimeLagged()}},
-onmouseout:function(evt){var m=FGYNRVA
+onmouseout:function(evt){var m=LFNYNMA
 m.cancelDropdownsUpdating()
 var e=m.getSource(evt)
 if(e)m.out(e)
@@ -228,11 +207,11 @@ var it=m.items[e.id]
 if(it&&!it.sel&&!it.childOpen){if(it.selPar)e.parentNode.className=it.cls+' '+it.cls+'Cur'
 else e.parentNode.className=it.cls}m.lastFoid=-1
 m.updateDropdownsTimeLagged()},
-onmouseup:function(evt){var m=FGYNRVA
+onmouseup:function(evt){var m=LFNYNMA
 m.isdown=false
 var e=m.getSource(evt)
 if(e)m.clicked(e)},
-clicked:function(e){var m=FGYNRVA
+clicked:function(e){var m=LFNYNMA
 var it=m.items[e.id]
 if(it&&it.href){m.cancelDropdownsUpdating()
 m.lastFoid=-1
@@ -240,7 +219,7 @@ m.updateDropdowns()
 if(it.target)window.open(it.href,it.target)
 else location=it.href}},
 onclick:function(){return false},
-updateDropdownsTimeLagged:function(){this.timeout=window.setTimeout('FGYNRVA.updateDropdowns()',300)},
+updateDropdownsTimeLagged:function(){this.timeout=window.setTimeout('LFNYNMA.updateDropdowns()',300)},
 cancelDropdownsUpdating:function(){window.clearTimeout(this.timeout)},
 updateDropdowns:function(){var m=this
 for(var i=1;i<m.dropdowns.length;i++)m.dropdowns[i].show=false
@@ -269,28 +248,26 @@ getLeft:function(e, base, objPar){var m=this
 var left=0
 while(e&&((base==0&&e!=objPar&&e!=m.wrapper)||(base==1&&((e.style.position!='absolute'&&e.style.position!='relative')||e==m.wrapper))||(base==2))){left+=e.offsetLeft
 e=e.offsetParent}return left},
-dummy:null};FGYNRVA.dropdown=function(m, itPar, index, level){var f=this
+dummy:null};LFNYNMA.dropdown=function(m, itPar, index, level){var f=this
 if(level==0){f.div=m.div
 f.baseLeft=m.br.ie8?0:0
-f.baseTop=m.div.offsetHeight-0
-m.topHeight=m.div.offsetHeight}else if(level==1){f.div=document.createElement('div')
-f.div.style.position='absolute'
-f.div.style.left='-10000px'
-if(m.level2){m.level2.appendChild(f.div)
-f.baseTop=m.topHeight+28}}else{f.div=document.createElement('div')
+f.baseTop=m.div.offsetHeight-0}else{f.div=document.createElement('div')
 f.div.className=m.ID+'_DD'
 f.div.style.position='absolute'
 f.div.style.left='-10000px'
 f.clip=f.div.style.clip
 m.wrapper.appendChild(f.div)
-f.intr=false}f.m=m
+f.shadows=new Array
+for(var s=1;s<=4;s++){f.shadows[s]=document.createElement('div')
+f.shadows[s].style.display='none'
+m.wrapper.appendChild(f.shadows[s])}f.intr=false}f.m=m
 f.itPar=itPar
 f.show=false
 f.shown=!index
 f.level=level
 f.div.obj=f
-f.obj='FGYNRVA.fo'+index
-eval(f.obj+'=f')};FGYNRVA.dropdown.prototype={showDropdown:function(){var f=this
+f.obj='LFNYNMA.fo'+index
+eval(f.obj+'=f')};LFNYNMA.dropdown.prototype={showDropdown:function(){var f=this
 var it=f.itPar
 var fo=f.div
 if(!fo||f.intr||f.isEmpty)return
@@ -298,40 +275,42 @@ var m=f.m
 var e=document.getElementById(it.btID)
 var pfo=m.dropdowns[it.foid]
 it.childOpen=1
-if(f.level==1){function getParentLeft(e){var left=e.offsetLeft
-if(e.offsetParent)left+=e.offsetParent.offsetLeft
-return left}var left=0
-var diff=m.level2.offsetWidth-f.baseWidth-0
-if(diff>0){left=pfo.baseLeft+m.getLeft(e,0,m.div)-10
-left-=Math.floor((f.baseWidth-e.offsetWidth)/2)
-if(left>diff)left=diff
-else if(left<0)left=0}fo.style.left=left+'px'
-fo.style.display='block'
-f.baseLeft=m.br.ie8?0:0
-f.shown=true
-return}f.intr=true
+f.intr=true
 f.pfoid=it.foid
 var docTop=(m.br.ie?m.br.ieCanvas.scrollTop:window.pageYOffset)-m.getTop(m.wrapper,2)
 var docLeft=(m.br.ie?m.br.ieCanvas.scrollLeft:window.pageXOffset)-m.getLeft(m.wrapper,2)
 var docHeight=m.br.ie?m.br.ieCanvas.clientHeight:window.innerHeight
 var docWidth=m.br.ie?m.br.ieCanvas.clientWidth:window.innerWidth
-var bFirstFO=f.level==2
+var bFirstFO=f.level==1
 var topLimit=docTop+2
 var bottomLimit=docTop+docHeight-6
 fo.style.top='-10000px'
 fo.style.display='block'
 f.baseWidth=fo.offsetWidth
 f.baseHeight=fo.offsetHeight
-var offsetX=bFirstFO ? 0:1
+var offsetX=bFirstFO ? 0:0
 var offsetY=bFirstFO ? 1:0
 f.baseLeft=pfo.baseLeft+(bFirstFO ? m.getLeft(e,0,m.wrapper):pfo.div.offsetWidth)+offsetX
 f.baseTop=pfo.baseTop+(bFirstFO ? 0:e.offsetTop)+offsetY
 if(f.baseLeft+f.baseWidth-docLeft>docWidth){var left=Math.min((bFirstFO ? docWidth+docLeft:pfo.baseLeft)-f.baseWidth-offsetX, m.wrapper.offsetWidth-f.baseWidth)
 if(left>=0)f.baseLeft=left}if(!bFirstFO&&f.baseHeight+f.baseTop>bottomLimit){var t=bottomLimit-f.baseHeight
-f.baseTop=t<topLimit ? topLimit:t}fo.style.display='none'
+f.baseTop=t<topLimit ? topLimit:t}for(var i=1;i<=4;i++){var s=f.shadows[i]
+s.innerHTML='.'
+var ss=s.style
+ss.display='none'
+ss.position='absolute'
+ss.left=(f.baseLeft+i)+'px'
+ss.top=(f.baseTop+i)+'px'
+ss.width=f.baseWidth+'px'
+ss.height=f.baseHeight+'px'
+ss.backgroundColor='#000000'
+ss.zIndex=1000-i
+var opacity=m.getOpacity(i)
+ss.filter='progid:DXImageTransform.Microsoft.Alpha(opacity='+opacity+')'
+ss.opacity=opacity/100}fo.style.display='none'
 fo.style.top=f.baseTop+'px'
 fo.style.left=f.baseLeft+'px'
-f.animate=f.rolldown
+f.animate=f.snap
 f.openAnimated(0)},
 removeDropdown:function(){var f=this
 var it=f.itPar
@@ -339,14 +318,12 @@ it.childOpen=0
 var e=document.getElementById(it.linkID)
 if(e){if(it.selPar)e.parentNode.className=it.cls+' '+it.cls+'Cur'
 else if(!it.sel)e.parentNode.className=it.cls}if(f.intr)return
-if(f.level==1){f.div.style.display='none'
-f.shown=false
-return}f.intr=true
-f.animate=f.rolldown
+f.intr=true
+f.animate=f.snap
 f.closeAnimated(100)},
 hideDropdown:function(){var f=this
 f.div.style.display='none'
-f.clearClip(f.div)},
+for(var i=1;i<=4;i++){f.shadows[i].style.display='none'}},
 clear:function(){var f=this},
 clearClip:function(o){if(o.style.display!='none')o.style.display='block'
 o.style.clip=this.m.br.ie?'rect(auto auto auto auto)':this.clip},
@@ -354,20 +331,22 @@ openAnimated:function(p){var f=this
 if(p>100)p=100
 var t=f.animate(f.div,p,0)
 if(p==0)f.div.style.display=''
-if(p==100)f.finishAnimation(true)
+for(var i=1;i<=4;i++){var s=f.shadows[i]
+f.animate(s,p,i)
+if(p==0)s.style.display=''}if(p==100)f.finishAnimation(true)
 else if(t)window.setTimeout(f.obj+'.openAnimated('+(p+10)+')',10)},
 closeAnimated:function(p){var f=this
 if(p<0)p=0
 var t=f.animate(f.div,p,0)
-if(p==0){f.finishAnimation(false)}else if(t){window.setTimeout(f.obj+'.closeAnimated('+(p-10)+')',10)}},
+for(var i=1;i<=4;i++){var s=f.shadows[i]
+f.animate(s,p,i)}if(p==0){f.finishAnimation(false)}else if(t){window.setTimeout(f.obj+'.closeAnimated('+(p-10)+')',10)}},
 finishAnimation:function(open){var f=this
 if(!open)f.hideDropdown()
 f.shown=open
 f.intr=false
 if(f.show){if(f.shown)f.clear()
 else f.showDropdown()}if(!f.show&&f.shown)f.removeDropdown()},
-rolldown:function(o,p,i){var b=this.baseHeight*p/100
-if(p==100)this.clearClip(o)
-else o.style.clip='rect(auto auto '+b+'px auto)'
-return true},
-dummy:null};FGYNRVA.init()
+snap:function(o,p,i){if(!p)this.div.style.display=''
+this.finishAnimation(p?false:true)
+return false},
+dummy:null};LFNYNMA.init()
